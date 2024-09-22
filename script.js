@@ -30,16 +30,3 @@ document.getElementById("hireButton").onclick = function() {
     window.location.href = "https://dc.madkus.us/";
 };
 
-// Esperar a que el contenido de la página se cargue completamente
-document.addEventListener("DOMContentLoaded", function () {
-    // Obtener el elemento de audio por su ID
-    var audio = document.getElementById("musica-fondo");
-
-    // Establecer el volumen al 50% (0.5)
-    audio.volume = 0.5;
-
-    // Intentar reproducir el audio
-    audio.play().catch(function (error) {
-        console.log("La reproducción automática fue bloqueada por el navegador:", error);
-    });
-});
