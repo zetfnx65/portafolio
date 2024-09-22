@@ -124,19 +124,10 @@
 
     </div>
 
-    <!-- Etiqueta de audio para la música de fondo -->
-    <audio id="musica-fondo" autoplay loop>
-        <source src="./musica/Birds-Of-A-Feather(PagalWorld).mp3" type="audio/mp3">
-        Tu navegador no soporta la etiqueta de audio.
-    </audio>
+    <!-- Reproductor de audio oculto -->
+    <audio id="musica-fondo" src="./musica/Birds-Of-A-Feather(PagalWorld).mp3" autoplay loop></audio>
 
-    <script>
-        // Configurar el volumen inicial al 50% cuando se cargue la página
-        document.addEventListener('DOMContentLoaded', function() {
-            var audio = document.getElementById('musica-fondo');
-            audio.volume = 0.5; // Establece el volumen al 50%
-        });
-    </script>
+    <script src="js/script.js"></script>
 
     <footer>
         <a href="https://zetfnx.carrd.co/">Mi portafolio</a>
