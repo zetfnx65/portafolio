@@ -124,10 +124,14 @@
 
     </div>
 
-    <audio controls autoplay loop>
+    <audio id="musicaFondo" controls autoplay loop>
         <source src="./musica/Birds-Of-A-Feather(PagalWorld).mp3" type="audio/mp3">
         Tu navegador no soporta la etiqueta de audio.
     </audio>
+    
+    <script>
+        document.getElementById("musicaFondo").volume = 0.2; // Ajusta el volumen al 50%
+      </script>
 
     <footer>
         <a href="https://zetfnx.carrd.co/">Mi portafolio</a>
