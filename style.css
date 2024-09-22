@@ -415,3 +415,8 @@ footer .socials a{
     }
 
 }
+
+/* Ocultar el reproductor de audio */
+#audio-fondo {
+    display: none;
+}
